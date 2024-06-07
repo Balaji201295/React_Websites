@@ -1,5 +1,22 @@
 import React from "react";
-const Home = () => {
-  return <div>Home</div>;
-};
+import {
+  Brands,
+  CTA,
+  Customers,
+  Hero,
+  ProjectDetails,
+  ProjectInfo,
+  ProjectSource,
+} from "../containers";
+const Home = () => (
+  <>
+    <Hero />
+    <Brands />
+    <ProjectSource />
+    <ProjectDetails />
+    <ProjectInfo />
+    <Customers />
+    <CTA />
+  </>
+);
 export default Home;

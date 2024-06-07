@@ -1,12 +1,12 @@
 const styles = {
   boxWidth: "xl:max-w-[1140px] w-full mx-auto",
 
-  headtext: "text-3xl sm:text-4xl font-bold text-dark",
   heading: "text-2xl sm:text-3xl font-bold text-dark",
-  paragraph: "text-base font-normal text-dark",
+  paragraph: "text-sm font-normal text-dark",
 
   flexCenter: "flex justify-center items-center",
-  flexStart: "flex justify-center items-start",
+  flexStart: "flex justify-start items-start",
+  ItemStart: "flex justify-center items-start",
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
@@ -20,10 +20,10 @@ export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
-  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+  sectionImg: `w-full flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
 
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionInfo: `w-full flex-1 ${styles.ItemStart} flex-col`,
 };
 
 export default styles;

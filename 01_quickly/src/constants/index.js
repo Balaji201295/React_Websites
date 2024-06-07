@@ -166,15 +166,15 @@ export const footerLinks = [
       },
       {
         name: "Company Vision",
-        id: "#",
+        path: "#",
       },
       {
         name: "Our History",
-        id: "#",
+        path: "#",
       },
       {
         name: "Investorys",
-        id: "#",
+        path: "#",
       },
     ],
   },
@@ -183,19 +183,19 @@ export const footerLinks = [
     links: [
       {
         name: "The Blog",
-        id: "#",
+        path: "#",
       },
       {
         name: "Downloads",
-        id: "#",
+        path: "#",
       },
       {
         name: "Change Log",
-        id: "#",
+        path: "#",
       },
       {
         name: "Slack Channel",
-        id: "#",
+        path: "#",
       },
     ],
   },
@@ -204,19 +204,19 @@ export const footerLinks = [
     links: [
       {
         name: "New Features",
-        id: "#",
+        path: "#",
       },
       {
         name: "Roadmap",
-        id: "#",
+        path: "#",
       },
       {
         name: "Product Demo",
-        id: "#",
+        path: "#",
       },
       {
         name: "Pricing",
-        id: "#",
+        path: "#",
       },
     ],
   },
