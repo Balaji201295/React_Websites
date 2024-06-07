@@ -49,3 +49,26 @@ li {
     transform: translateY(0);
   }
 }
+
+/* slick slider */
+
+.testimonial {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+.slick-dots {
+  bottom: -5rem;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  opacity: 1;
+  color: #b8e4da;
+}
+.slick-dots li.slick-active button:before {
+  color: #072125;
+}

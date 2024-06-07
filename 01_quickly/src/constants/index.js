@@ -379,6 +379,50 @@ export const people = [
   },
 ];
 
+export const feedback = [
+  {
+    profileImg: Person_1,
+    profileName: "Roberta Flack",
+    position: "Chief Innovator",
+    content:
+      "Imagine the best product you’ve used, times it by ten, and you’ll have something similar",
+  },
+  {
+    profileImg: Person_2,
+    profileName: "Robert Wilts",
+    position: "Head of HR",
+    content:
+      "I want to fly like an angel flare on a ten feet snare I want to dance until the sun comes up I want to fight your cousin.",
+  },
+  {
+    profileImg: Person_3,
+    profileName: "Charlie Roberts",
+    position: "Chief Innovation Officer",
+    content:
+      "With Quickly, you can get more productive work done in far less time than ever before.",
+  },
+  {
+    profileImg: Person_4,
+    profileName: "Christian Heart",
+    position: "UX Writing Lead",
+    content:
+      "This goes further than what you expected, here you can communicate two really important product features with icons.",
+  },
+  {
+    profileImg: Person_5,
+    profileName: "Tommy Wisby",
+    position: "Chief of Cutlery",
+    content:
+      "Your new projects are simply a click away with our intuitive creation flow",
+  },
+  {
+    profileImg: Person_6,
+    profileName: "Teddy Pendergrass",
+    position: "Legendary Song Writer",
+    content: "You receive notifications whenever a team member finishes a task",
+  },
+];
+
 export const pricingItems = [
   {
     type: "free",

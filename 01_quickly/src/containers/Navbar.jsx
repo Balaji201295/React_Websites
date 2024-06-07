@@ -12,7 +12,7 @@ const Navbar = () => {
 
   // Fixed navbar scrolling
   useEffect(() => {
-    const handleScroll = () => setIsScrolled(window.scrollY > 120);
+    const handleScroll = () => setIsScrolled(window.scrollY > 90);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);

@@ -4,7 +4,7 @@ import { Image_1 } from "../assets";
 import styles, { layout } from "../style";
 const Hero = () => (
   <header
-    className={`w-full ${styles.boxWidth} ${styles.paddingX} ${layout.section} mt-24`}
+    className={`w-full ${styles.boxWidth} ${styles.paddingX} ${layout.section} mt-20`}
   >
     <div className={`${layout.sectionInfo} gap-6`}>
       <h5 className="text-base sm:text-lg font-bold text-primary">

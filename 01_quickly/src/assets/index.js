@@ -31,6 +31,7 @@ import ProjectInfo_1 from "./projectInfo_1.png";
 import ProjectInfo_2 from "./projectInfo_2.png";
 import ProjectInfo_3 from "./projectInfo_3.png";
 import Quote from "./quote.svg";
+import Quote_1 from "./qoute_1.svg";
 import Work_1 from "./work_1.png";
 import Work_2 from "./work_2.png";
 import Work_3 from "./work_3.png";
@@ -70,6 +71,7 @@ export {
   ProjectInfo_2,
   ProjectInfo_3,
   Quote,
+  Quote_1,
   Work_1,
   Work_2,
   Work_3,
