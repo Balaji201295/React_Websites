@@ -37,6 +37,9 @@ const Navbar = () => {
     </>
   );
 
+  const handleButtonClick = () => {
+    navigate("/login");
+  };
   return (
     <nav
       className={`${styles.boxWidth} ${
@@ -64,9 +67,9 @@ const Navbar = () => {
       <div className="hidden sm:flex justify-end items-center w-full md:w-max mr-8 md:mr-0 gap-4">
         <Button
           label="Sign up"
-          styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light "
+          styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light"
+          onClick={handleButtonClick}
         />
-        <Button label="Log In" />
       </div>
       {/* responsive */}
       <div className="md:hidden block">
@@ -92,14 +95,14 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex sm:hidden justify-center items-center gap-4 mt-8">
+            <div
+              className="flex sm:hidden justify-center items-center gap-4 mt-8"
+              onClick={() => setToggleOpen(false)}
+            >
               <Button
                 label="Sign up"
-                styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light "
-              />
-              <Button
-                label="Log In"
-                styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light "
+                styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light"
+                onClick={handleButtonClick}
               />
             </div>
           </div>

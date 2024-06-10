@@ -5,3 +5,5 @@ export { default as StatsItems } from "./StatsItems";
 export { default as SectionHeading } from "./SectionHeading";
 export { default as Person } from "./Person";
 export { default as PricingItems } from "./PricingItems";
+export { default as LoginForm } from "./LoginForm";
+export { default as SignupForm } from "./SignupForm";
