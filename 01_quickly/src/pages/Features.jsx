@@ -1,5 +1,16 @@
 import React from "react";
-const Features = () => {
-  return <div>Features</div>;
-};
+import { PageHeading } from "../components";
+import { FeatureInfo, Journey, ProductWorks, ProjectInfo } from "../containers";
+const Features = () => (
+  <>
+    <PageHeading
+      title="The future of features"
+      subHeading="Are you really really ready for the boom box?"
+    />
+    <FeatureInfo />
+    <ProductWorks />
+    <ProjectInfo />
+    <Journey />
+  </>
+);
 export default Features;

@@ -437,7 +437,8 @@ export const pricingItems = [
   },
   {
     type: "business",
-    price: 29.99,
+    content: "popular",
+    price: 49.99,
     description: "Premium features for growing businesses and companies",
     benefits: [
       "All features",
@@ -449,8 +450,23 @@ export const pricingItems = [
     ],
   },
   {
-    type: "enterprise",
-    price: 39.99,
+    type: "expert",
+    price: 99.99,
+    description: "Custom solutions for the world’s most demanding industries",
+    benefits: [
+      "All features",
+      "Unlimited projects",
+      "No payment needed",
+      "Free onboarding",
+      "All features",
+      "Unlimited projects",
+      "No payment needed",
+      "Free onboarding",
+    ],
+  },
+  {
+    type: "expert",
+    price: 199.99,
     description: "Custom solutions for the world’s most demanding industries",
     benefits: [
       "All features",

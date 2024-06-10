@@ -2,13 +2,13 @@ import React from "react";
 import styles from "../style";
 const SectionHeading = ({ title, content, align, width }) => (
   <div
-    className={` flex-col gap-4 max-w-[550px] ${width} ${
-      align ? `${align} ${styles.flexCenter}` : `${styles.flexStart}`
+    className={` flex flex-col gap-4 max-w-[550px] ${width} ${
+      align ? `${align}` : `${styles.flexStart}`
     }
   `}
   >
     <h2 className={styles.heading}>{title}</h2>
-    {content && <p className={styles.paragraph}>{content}</p>}
+    {content && <p className={`${styles.paragraph}`}>{content}</p>}
   </div>
 );
 export default SectionHeading;
