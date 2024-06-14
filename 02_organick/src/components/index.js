@@ -1,0 +1,12 @@
+export { default as Benefits } from "./Benefits";
+export { default as Button } from "./Button";
+export { default as CTA } from "./CTA";
+export { default as PageHeading } from "./PageHeading";
+export { default as PageTitle } from "./PageTitle";
+export { default as ProductCards } from "./ProductCards";
+export { default as ProductsFilter } from "./ProductsFilter";
+export { default as SectionHeading } from "./SectionHeading";
+export { default as Stats } from "./Stats";
+export { default as TeamCard } from "./TeamCard";
+export { default as Ratings } from "./Ratings";
+export { default as BlogCards } from "./BlogCards";
