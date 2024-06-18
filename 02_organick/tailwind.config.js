@@ -19,6 +19,7 @@ export default {
         hero: "url('./src/assets/banner.png')",
         testimonial: "url('./src/assets/bg_2.png')",
         cta: "url('./src/assets/bg_3.png')",
+        about: "url('./src/assets/bg_5.png')",
       },
     },
     screens: {

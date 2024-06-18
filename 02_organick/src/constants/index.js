@@ -1,4 +1,8 @@
 import {
+  Icon_3,
+  Icon_4,
+  Icon_5,
+  Icon_6,
   Image_1,
   Image_2,
   Item_1,
@@ -196,5 +200,28 @@ export const socialLinks = [
   {
     icon: FaPinterest,
     link: "https://in.pinterest.com/login/",
+  },
+];
+
+export const benefitItems = [
+  {
+    icon: Icon_3,
+    title: "Return Policy",
+    content: "Simply dummy text of the printing typesetting industry.",
+  },
+  {
+    icon: Icon_4,
+    title: "100% Fresh",
+    content: "Simply dummy text of the printing typesetting industry.",
+  },
+  {
+    icon: Icon_5,
+    title: "Support 24/7",
+    content: "Simply dummy text of the printing typesetting industry.",
+  },
+  {
+    icon: Icon_6,
+    title: "Secured Payment",
+    content: "Simply dummy text of the printing typesetting industry.",
   },
 ];

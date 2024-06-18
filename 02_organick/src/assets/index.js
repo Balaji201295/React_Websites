@@ -1,4 +1,16 @@
 import BG_1 from "./bg_1.png";
+import BG_5 from "./bg_5.png";
+import BG_6 from "./bg_6.png";
+import BG_7 from "./bg_7.png";
+import BG_8 from "./bg_8.png";
+import BG_9 from "./bg_9.png";
+import BG_10 from "./bg_10.png";
+import BG_11 from "./bg_11.png";
+import BG_12 from "./bg_12.png";
+import BG_13 from "./bg_13.png";
+import BG_14 from "./bg_14.png";
+import BG_15 from "./bg_15.png";
+import BG_16 from "./bg_16.png";
 import Blog_1 from "./blog_1.png";
 import Blog_2 from "./blog_2.png";
 import Blog_3 from "./blog_3.png";
@@ -17,6 +29,9 @@ import Icon_9 from "./icon_9.svg";
 import Icon_10 from "./icon_10.svg";
 import Icon_11 from "./icon_11.svg";
 import Icon_12 from "./icon_12.svg";
+import Icon_13 from "./icon_13.svg";
+import Icon_14 from "./icon_14.svg";
+import Icon_15 from "./icon_15.svg";
 import Image_1 from "./image_1.png";
 import Image_2 from "./image_2.png";
 import Image_3 from "./image_3.png";
@@ -74,6 +89,18 @@ import Video from "./video.png";
 
 export {
   BG_1,
+  BG_5,
+  BG_6,
+  BG_7,
+  BG_8,
+  BG_9,
+  BG_10,
+  BG_11,
+  BG_12,
+  BG_13,
+  BG_14,
+  BG_15,
+  BG_16,
   Blog_1,
   Blog_2,
   Blog_3,
@@ -92,6 +119,9 @@ export {
   Icon_10,
   Icon_11,
   Icon_12,
+  Icon_13,
+  Icon_14,
+  Icon_15,
   Image_1,
   Image_2,
   Image_3,
