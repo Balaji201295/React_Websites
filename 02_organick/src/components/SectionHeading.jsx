@@ -6,7 +6,7 @@ const SectionHeading = ({ title, subtitle, headtext, align, color }) => (
       align ? "text-center sm:text-left items-center sm:items-start" : ""
     }`}
   >
-    <p className="text-xl sm:text-2xl font-tail font-normal text-green">
+    <p className="text-xl sm:text-2xl font-tail font-normal text-green capitalize">
       {subtitle}
     </p>
     {title && (

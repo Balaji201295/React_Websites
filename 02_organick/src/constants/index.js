@@ -8,6 +8,9 @@ import {
   Item_1,
   Item_2,
   Item_3,
+  Item_4,
+  Item_5,
+  Item_6,
   Person_1,
   Person_2,
   Person_3,
@@ -27,6 +30,12 @@ import {
   Product_7,
   Product_8,
   Product_9,
+  Team_1,
+  Team_2,
+  Team_3,
+  Team_4,
+  Team_5,
+  Team_6,
 } from "../assets";
 
 import {
@@ -223,5 +232,141 @@ export const benefitItems = [
     icon: Icon_6,
     title: "Secured Payment",
     content: "Simply dummy text of the printing typesetting industry.",
+  },
+];
+
+export const experts = [
+  {
+    profileImg: Team_1,
+    profileName: "Giovani Bacardo",
+    position: "Farmer",
+    socialLinks: [
+      {
+        link: "https://www.instagram.com",
+        icon: FaInstagram,
+      },
+      {
+        link: "https://www.facebook.com",
+        icon: FaFacebook,
+      },
+      {
+        link: "https://x.com/i/flow/login",
+        icon: FaTwitter,
+      },
+    ],
+  },
+  {
+    profileImg: Team_2,
+    profileName: "Marianne Loreno",
+    position: "designer",
+    socialLinks: [
+      {
+        link: "https://www.instagram.com",
+        icon: FaInstagram,
+      },
+      {
+        link: "https://www.facebook.com",
+        icon: FaFacebook,
+      },
+      {
+        link: "https://x.com/i/flow/login",
+        icon: FaTwitter,
+      },
+    ],
+  },
+  {
+    profileImg: Team_3,
+    profileName: "Riga Pelore",
+    position: "farmer",
+    socialLinks: [
+      {
+        link: "https://www.instagram.com",
+        icon: FaInstagram,
+      },
+      {
+        link: "https://www.facebook.com",
+        icon: FaFacebook,
+      },
+      {
+        link: "https://x.com/i/flow/login",
+        icon: FaTwitter,
+      },
+    ],
+  },
+  {
+    profileImg: Team_4,
+    profileName: "Keira Knightley",
+    position: "Designer",
+    socialLinks: [
+      {
+        link: "https://www.instagram.com",
+        icon: FaInstagram,
+      },
+      {
+        link: "https://www.facebook.com",
+        icon: FaFacebook,
+      },
+      {
+        link: "https://x.com/i/flow/login",
+        icon: FaTwitter,
+      },
+    ],
+  },
+  {
+    profileImg: Team_5,
+    profileName: "Scott Lawrence",
+    position: "Farmer",
+    socialLinks: [
+      {
+        link: "https://www.instagram.com",
+        icon: FaInstagram,
+      },
+      {
+        link: "https://www.facebook.com",
+        icon: FaFacebook,
+      },
+      {
+        link: "https://x.com/i/flow/login",
+        icon: FaTwitter,
+      },
+    ],
+  },
+  {
+    profileImg: Team_6,
+    profileName: "Karen Allen",
+    position: "Designer",
+    socialLinks: [
+      {
+        link: "https://www.instagram.com",
+        icon: FaInstagram,
+      },
+      {
+        link: "https://www.facebook.com",
+        icon: FaFacebook,
+      },
+      {
+        link: "https://x.com/i/flow/login",
+        icon: FaTwitter,
+      },
+    ],
+  },
+];
+
+export const groceries = [
+  {
+    imgUrl: Item_4,
+    text: "spicy",
+  },
+  {
+    imgUrl: Item_5,
+    text: "nuts and feeds",
+  },
+  {
+    imgUrl: Item_5,
+    text: "fruits",
+  },
+  {
+    imgUrl: Item_6,
+    text: "vegetable",
   },
 ];
