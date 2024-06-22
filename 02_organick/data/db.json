@@ -332,5 +332,128 @@
     "More-or-less normal distribution of letters"
    ]
   }
+ ],
+ "portfolios": [
+  {
+   "id": 1,
+   "imgUrl": "../src/assets/portfolio_1.png",
+   "title": "Green & Tasty Lemon",
+   "category": "fruits",
+   "intro": "Green & Tasty Lemons likely refer to lemons that are still green or partially green when harvested but are still delicious and usable. Here's a detailed overview.",
+   "date": "December 4, 2022",
+   "client": "Kevin Martin",
+   "service": "Organic Products",
+   "aboutContent": [
+    "These lemons are green or partially green in color, often because they have not fully ripened or have been harvested early. They might still develop yellow color after picking if left at room temperature.",
+    "Even when green, they can still be juicy and tangy, though they might be slightly less sweet than fully ripe, yellow lemons. Their flavor remains acidic and refreshing."
+   ],
+   "farmContent": [
+    "Green lemons are rich in vitamin C, which is essential for immune function, skin health, and antioxidant protection. They also contain small amounts of other vitamins like B-complex vitamins.",
+    "Green lemons can be used in cooking and baking, just like fully ripe lemons. Their juice and zest can be used to flavor dishes, marinades, dressings, and desserts."
+   ],
+   "conclusion": [
+    "The high acidity of lemons, whether green or yellow, can be harsh on tooth enamel if consumed in large quantities. It's advisable to rinse the mouth with water after consuming lemon juice.",
+    "Some people may be allergic to citrus fruits and should avoid green lemons if they experience symptoms like itching, swelling, or difficulty breathing."
+   ]
+  },
+  {
+   "id": 2,
+   "imgUrl": "../src/assets/portfolio_2.png",
+   "title": "Organic Carrot",
+   "category": "farmer",
+   "intro": "Organic carrots are carrots (Daucus carota) grown according to organic farming principles, which emphasize sustainability, biodiversity, and the avoidance of synthetic chemicals. Here are the key points about organic carrots.",
+   "date": "December 4, 2022",
+   "client": "Kevin Martin",
+   "service": "Organic Products",
+   "aboutContent": [
+    "Organic carrots are cultivated in soil that is managed using organic methods. This includes the use of natural compost, green manure, and organic fertilizers to enhance soil fertility.",
+    "Organic farming relies on natural pest control methods such as crop rotation, biological pest controls (like beneficial insects), and physical barriers instead of synthetic pesticides."
+   ],
+   "farmContent": [
+    "Organic carrots are rich in vitamins and minerals, particularly vitamin A (from beta-carotene), vitamin K, potassium, and fiber.",
+    "Some studies suggest that organic produce may have higher levels of certain nutrients and antioxidants compared to conventionally grown counterparts, although results can vary."
+   ],
+   "conclusion": "To be labeled as organic, carrots must be grown according to strict standards set by certification bodies like the USDA in the United States or equivalent organizations in other countries. This includes regular inspections and adherence to organic farming practices."
+  },
+  {
+   "id": 3,
+   "imgUrl": "../src/assets/portfolio_3.png",
+   "title": "Organic Betel Leaf",
+   "category": "leaf",
+   "intro": "Organic betel leaves (Piper betle) are leaves from the betel vine cultivated using organic farming practices, ensuring they are free from synthetic chemicals, pesticides, and genetically modified organisms (GMOs). Here’s a detailed look at organic betel leaves.",
+   "date": "December 4, 2022",
+   "client": "Kevin Martin",
+   "service": "Organic Products",
+   "aboutContent": [
+    "Organic betel leaves are grown in nutrient-rich, well-drained soil, enhanced with organic compost and natural fertilizers.",
+    "Natural pest control methods are employed, such as using neem oil, introducing beneficial insects, and implementing crop rotation to minimize pest infestations.",
+    "Weeds are managed through mulching, hand weeding, and the use of cover crops, avoiding chemical herbicides."
+   ],
+   "farmContent": [
+    "Betel leaves are rich in vitamins (particularly vitamin C), minerals (such as calcium and iron), and antioxidants.",
+    "Betel leaves have been traditionally used in Ayurveda and other traditional medicines for their anti-inflammatory, antiseptic, and digestive properties. They are believed to aid in oral health, improve digestion, and provide relief from respiratory issues."
+   ],
+   "conclusion": "While betel leaves themselves are generally safe to consume in moderation, it is important to be cautious with traditional 'paan' preparations that include areca nut, as the areca nut has been linked to oral health issues and cancer with prolonged use."
+  },
+  {
+   "id": 4,
+   "imgUrl": "../src/assets/portfolio_4.png",
+   "title": "Natural Tomato",
+   "category": "fruits",
+   "intro": "Natural tomatoes refer to tomatoes grown with minimal human intervention, often emphasizing traditional farming practices that avoid synthetic chemicals. These can include heirloom varieties and those grown using organic methods. Here are some key points about natural tomatoes.",
+   "date": "December 4, 2022",
+   "client": "Kevin Martin",
+   "service": "Organic Products",
+   "aboutContent": [
+    "Natural methods for pest control include companion planting (growing tomatoes alongside plants that repel pests), using beneficial insects (like ladybugs), and applying natural insect repellents (such as neem oil).",
+    "Natural tomatoes are typically grown in nutrient-rich, well-drained soil. Organic matter like compost is often used to enhance soil fertility."
+   ],
+   "farmContent": [
+    "These are traditional tomato varieties that have been passed down through generations. They are open-pollinated and come in a variety of colors, shapes, and sizes. Heirloom tomatoes are known for their rich flavors.",
+    "These tomatoes are grown following organic farming standards, which prohibit synthetic pesticides, herbicides, and fertilizers. They are certified by organizations like the USDA Organic."
+   ],
+   "conclusion": "Natural and organic farming methods may help retain higher levels of certain nutrients in tomatoes. By avoiding synthetic chemicals, natural tomatoes reduce the risk of pesticide residues, making them a safer choice for consumption."
+  },
+  {
+   "id": 5,
+   "imgUrl": "../src/assets/portfolio_5.png",
+   "title": "Black Raspberry",
+   "category": "farmer",
+   "intro": "Black raspberries, also known as blackcaps, are a type of berry that belongs to the Rosaceae family. They are closely related to red raspberries and are native to North America. Here are some key points about black raspberries.",
+   "date": "December 4, 2022",
+   "client": "Kevin Martin",
+   "service": "Organic Products",
+   "aboutContent": [
+    "Black raspberries are small, round, and black to dark purple when ripe. They look similar to blackberries but are typically smaller and have a hollow core.",
+    "hey have a unique flavor profile that is both sweet and tart, often described as more intense than red raspberries."
+   ],
+   "farmContent": [
+    "Black raspberries are rich in antioxidants, particularly anthocyanins, which give the berries their dark color and are known for their health benefits.",
+    "Due to their high antioxidant content, black raspberries are believed to help reduce inflammation, lower the risk of certain cancers, and support heart health."
+   ],
+   "conclusion": [
+    "Black raspberries can be eaten fresh, used in desserts, jams, jellies, and sauces, or added to baked goods. They are also popular in smoothies and yogurt.",
+    "Traditionally, black raspberries have been used in folk medicine for their potential health benefits, including treating gastrointestinal issues and supporting immune health."
+   ]
+  },
+  {
+   "id": 6,
+   "imgUrl": "../src/assets/portfolio_6.png",
+   "title": "Honey Orange",
+   "category": "farmer",
+   "intro": "Honey oranges, also known as 'Honeybell' oranges or Minneola tangelos, are a type of citrus fruit that is highly valued for its sweet, juicy flavor and easy-to-peel skin. Here’s a detailed overview.",
+   "date": "December 4, 2022",
+   "client": "Kevin Martin",
+   "service": "Organic Products",
+   "aboutContent": [
+    "Honey oranges are typically medium to large in size and have a distinctive bell shape with a slightly protruding neck at the stem end. They have a bright orange, smooth, and relatively thin skin.",
+    "These oranges are known for their exceptionally sweet and tangy flavor, often described as a perfect balance between sweetness and acidity. The flesh is juicy and tender, making them a delightful eating experience."
+   ],
+   "farmContent": [
+    "They are an excellent source of vitamin C, which is important for immune function, skin health, and antioxidant protection. They also contain smaller amounts of vitamins A and B-complex vitamins.",
+    "Honey oranges provide potassium, which is important for heart health and maintaining proper fluid balance."
+   ],
+   "conclusion": "Like all citrus fruits, honey oranges contain natural sugars. While they are a healthy fruit, those monitoring their sugar intake should consume them in moderation. Some individuals may be allergic to citrus fruits and should avoid honey oranges if they experience symptoms such as itching, swelling, or difficulty breathing."
+  }
  ]
 }

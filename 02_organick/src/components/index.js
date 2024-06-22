@@ -11,3 +11,4 @@ export { default as TeamCard } from "./TeamCard";
 export { default as Ratings } from "./Ratings";
 export { default as BlogCards } from "./BlogCards";
 export { default as Copyright } from "./Copyright";
+export { default as PortfolioCards } from "./PortfolioCards";

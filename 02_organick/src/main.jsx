@@ -72,8 +72,23 @@ const router = createBrowserRouter([
         element: <Portfolio />,
       },
       {
-        path: "/single-portfolio",
+        path: "/portfolio/:id",
         element: <SinglePortfolio />,
+        loader: async ({ params }) => {
+          try {
+            const response = await fetch(
+              `http://192.168.1.2:3000/portfolios/${params.id}`
+            );
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            const data = await response.json();
+            return data;
+          } catch (error) {
+            console.error("Fetch error: ", error);
+            throw new Error("Failed to load shop data");
+          }
+        },
       },
       {
         path: "/team",
@@ -86,8 +101,21 @@ const router = createBrowserRouter([
       {
         path: "/blog/:id",
         element: <SingleBlog />,
-        loader: ({ params }) =>
-          fetch(`http://192.168.1.2:3000/blogs/${params.id}`),
+        loader: async ({ params }) => {
+          try {
+            const response = await fetch(
+              `http://192.168.1.2:3000/blogs/${params.id}`
+            );
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            const data = await response.json();
+            return data;
+          } catch (error) {
+            console.error("Fetch error: ", error);
+            throw new Error("Failed to load shop data");
+          }
+        },
       },
       {
         path: "/contact",

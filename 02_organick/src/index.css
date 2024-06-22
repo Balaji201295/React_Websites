@@ -48,6 +48,9 @@ body {
 .bg_singleService {
   background-image: url("./assets/bg_9.png");
 }
+.bg_portfolio {
+  background-image: url("./assets/bg_10.png");
+}
 
 a {
   color: inherit;
@@ -143,4 +146,16 @@ li {
 }
 .slick-dots li.slick-active button:before {
   color: #7eb693;
+}
+
+/* portfolio */
+.portfolio_card-link {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+}
+.portfolio_card:hover .portfolio_card-link {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
 }
