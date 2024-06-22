@@ -60,7 +60,7 @@ const Footer = () => (
         })}
       </div>
     </div>
-    <div className="w-full flex-1 flex flex-col justify-center md:justify-start md:items-start items-center text-center">
+    <div className="w-full flex-1 flex flex-col justify-center md:justify-start md:items-start items-center text-center md:text-left">
       <h3 className="text-xl sm:text-2xl font-bold text-primary mb-6">
         Utility Pages
       </h3>

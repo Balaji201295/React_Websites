@@ -1,8 +1,14 @@
 import {
+  Icon_10,
+  Icon_11,
+  Icon_12,
   Icon_3,
   Icon_4,
   Icon_5,
   Icon_6,
+  Icon_7,
+  Icon_8,
+  Icon_9,
   Image_1,
   Image_2,
   Item_1,
@@ -368,5 +374,44 @@ export const groceries = [
   {
     imgUrl: Item_6,
     text: "vegetable",
+  },
+];
+
+export const agricultureItems = [
+  {
+    icon: Icon_7,
+    title: "Dairy Products",
+    content:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis",
+  },
+  {
+    icon: Icon_8,
+    title: "Store Services",
+    content:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis",
+  },
+  {
+    icon: Icon_9,
+    title: "Delivery Services",
+    content:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis",
+  },
+  {
+    icon: Icon_10,
+    title: "Agricultural Services",
+    content:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis",
+  },
+  {
+    icon: Icon_11,
+    title: "Organic Products",
+    content:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis",
+  },
+  {
+    icon: Icon_12,
+    title: "Fresh Vegetables",
+    content:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremqlaudantium. Sed ut perspiciatis",
   },
 ];

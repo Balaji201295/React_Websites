@@ -18,7 +18,7 @@ const Home = () => (
     <Benefits />
     <AboutUs />
     <OurProducts />
-    <div className={`${styles.boxWidth} bg__img bg-testimonial`}>
+    <div className={`${styles.boxWidth} bg__img bg_testimonial`}>
       <Testimonials />
       <div className="w-[75%] ss:w-[60%] h-[1px] bg-[#E0E0E0] my-16 mx-auto" />
       <Stats />

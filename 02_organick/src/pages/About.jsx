@@ -9,7 +9,7 @@ import {
 import styles from "../style";
 const About = () => (
   <>
-    <PageHeading bgImage="bg-about" heading="About us" />
+    <PageHeading bgImage="bg_about" heading="About us" />
     <AboutInfo />
     <div className={`${styles.boxWidth} ${styles.padding} bg-[#F9F8F8]`}>
       <WhyChooseUs />

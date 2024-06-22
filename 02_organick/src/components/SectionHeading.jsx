@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../style";
 const SectionHeading = ({ title, subtitle, headtext, align, color }) => (
   <div
     className={`flex flex-col justify-start gap-2 ${

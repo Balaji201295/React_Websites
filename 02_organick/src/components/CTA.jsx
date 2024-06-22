@@ -6,7 +6,7 @@ const CTA = () => (
     className={`w-full ${styles.boxWidth} ${styles.padding} flex-col sm:flex-row gap-8`}
   >
     <div
-      className={`w-full ${styles.padding} flex flex-col md:flex-row justify-between items-center gap-6 bg-cta bg__img rounded-[30px]`}
+      className={`w-full ${styles.padding} flex flex-col md:flex-row justify-between items-center gap-6 bg_cta bg__img rounded-[30px]`}
     >
       <h2 className="flex-1 text-2xl sm:text-3xl md:text-4xl text-white font-bold">
         Subscribe to <br className="md:block hidden" /> our Newsletter

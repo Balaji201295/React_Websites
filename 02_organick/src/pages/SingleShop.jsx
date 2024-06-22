@@ -38,7 +38,7 @@ const SingleShop = () => {
 
   return (
     <section className={styles.boxWidth}>
-      <PageHeading bgImage="bg-item" heading={productName} />
+      <PageHeading bgImage="bg_singleShop" heading={productName} />
       <div className={`${styles.padding}`}>
         {/* Product Info */}
         <div className={layout.sectionReverse}>

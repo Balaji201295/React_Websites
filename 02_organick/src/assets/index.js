@@ -54,6 +54,7 @@ import Item_5 from "./item_5.png";
 import Item_6 from "./item_6.png";
 import Item_7 from "./item_7.png";
 import Logo from "./logo.svg";
+import OrganicVideo from "./organic.mp4";
 import Person_1 from "./person_1.jpg";
 import Person_2 from "./person_2.jpg";
 import Person_3 from "./person_3.jpg";
@@ -144,6 +145,7 @@ export {
   Item_6,
   Item_7,
   Logo,
+  OrganicVideo,
   Person_1,
   Person_2,
   Person_3,

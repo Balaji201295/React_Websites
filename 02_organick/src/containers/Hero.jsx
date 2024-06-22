@@ -4,7 +4,7 @@ import { Button, SectionHeading } from "../components";
 import styles from "../style";
 const Hero = () => (
   <header
-    className={`${styles.boxWidth} ${styles.padding} section_height flex flex-col justify-center items-start bg-hero bg__img mt-20 relative`}
+    className={`${styles.boxWidth} ${styles.padding} section_height flex flex-col justify-center items-start bg_hero bg__img mt-20 relative`}
   >
     <div className="absolute w-full h-full top-0 left-0 z-[1]">
       <img src={BG_1} alt="Image" className="w-full h-full object-cover" />

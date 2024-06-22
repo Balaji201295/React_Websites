@@ -4,7 +4,7 @@ import OurProducts from "../containers/OurProducts";
 
 const Shop = () => (
   <>
-    <PageHeading bgImage="bg-shop" heading="Shop" />
+    <PageHeading bgImage="bg_shop" heading="Shop" />
     <OurProducts />
     <CTA />
   </>
