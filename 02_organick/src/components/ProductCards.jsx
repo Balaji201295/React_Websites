@@ -1,11 +1,21 @@
-import React, { useState } from "react";
-import { Button, Ratings } from "../components";
+import React from "react";
+import { Ratings } from "../components";
 import styles from "../style";
+import { Link } from "react-router-dom";
 const ProductCards = ({
-  product: { category, imgUrl, productName, retailPrice, offerPrice, ratings },
+  product: {
+    id,
+    category,
+    imgUrl,
+    productName,
+    retailPrice,
+    offerPrice,
+    ratings,
+  },
 }) => {
   return (
-    <article
+    <Link
+      to={`/shop/${id}`}
       className={`${styles.flexStart} flex-col rounded-3xl bg-white shadow border border-light pt-4 sm:pt-6 px-4 sm:px-6 pb-4`}
     >
       <p className="text-xs font-semibold text-white py-1 px-3 rounded-lg bg-primary capitalize">
@@ -28,7 +38,7 @@ const ProductCards = ({
         </div>
         <Ratings ratings={ratings} />
       </div>
-    </article>
+    </Link>
   );
 };
 

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import api from "../api/json";
-const useProducts = () => {
+const useShop = () => {
   const [products, setProducts] = useState([]);
   // Fetching Data
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await api.get("/products");
+        const response = await api.get("/shop");
         setProducts(response.data);
       } catch (error) {
         console.log("Error:", error.message);
@@ -16,4 +16,4 @@ const useProducts = () => {
   }, []);
   return products;
 };
-export default useProducts;
+export default useShop;

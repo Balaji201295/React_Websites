@@ -5,10 +5,10 @@ import {
   ProductCards,
   Button,
 } from "../components";
-import { useProducts } from "../hooks";
+import { useShop } from "../hooks";
 import styles from "../style";
 const OurProducts = () => {
-  const products = useProducts();
+  const products = useShop();
   const [filterProducts, setFilterProducts] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [itemToShow, setItemToShow] = useState(8);
@@ -49,12 +49,15 @@ const OurProducts = () => {
     <section
       className={`${styles.boxWidth} ${styles.padding} ${styles.flexCenter} flex-col text-center`}
     >
-      <SectionHeading title="Our Products" subtitle="Categories" />
-      <ProductsFilter
-        categories={allCategories}
-        selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
-      />
+      <>
+        <SectionHeading title="Our Products" subtitle="Categories" />
+        <ProductsFilter
+          categories={allCategories}
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
+        />
+      </>
+
       <div className="grid grid-cols-1 ss:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-12">
         {filterProducts.slice(0, itemToShow).map((product) => (
           <ProductCards key={product.id} product={product} />

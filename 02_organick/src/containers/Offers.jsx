@@ -1,9 +1,9 @@
 import React from "react";
 import { SectionHeading, Button, ProductCards } from "../components";
-import { useProducts } from "../hooks";
+import { useShop } from "../hooks";
 import styles from "../style";
 const Offers = () => {
-  const products = useProducts();
+  const products = useShop();
   return (
     <section className={`${styles.boxWidth} ${styles.padding} bg-primary`}>
       <div

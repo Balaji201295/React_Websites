@@ -20,6 +20,8 @@ export default {
         testimonial: "url('./src/assets/bg_2.png')",
         cta: "url('./src/assets/bg_3.png')",
         about: "url('./src/assets/bg_5.png')",
+        shop: "url('./src/assets/bg_6.png')",
+        item: "url('./src/assets/bg_7.png')",
       },
     },
     screens: {

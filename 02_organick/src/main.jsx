@@ -41,8 +41,23 @@ const router = createBrowserRouter([
         element: <Shop />,
       },
       {
-        path: "/single-shop",
+        path: "/shop/:id",
         element: <SingleShop />,
+        loader: async ({ params }) => {
+          try {
+            const response = await fetch(
+              `http://192.168.1.2:3000/shop/${params.id}`
+            );
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            const data = await response.json();
+            return data;
+          } catch (error) {
+            console.error("Fetch error: ", error);
+            throw new Error("Failed to load shop data");
+          }
+        },
       },
       {
         path: "/service",

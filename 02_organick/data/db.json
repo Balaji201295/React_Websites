@@ -1,5 +1,5 @@
 {
- "products": [
+ "shop": [
   {
    "id": 1,
    "category": "vegetable",
@@ -7,7 +7,10 @@
    "productName": "Calabrese Broccoli",
    "retailPrice": 20,
    "offerPrice": 13,
-   "ratings": 5
+   "ratings": 5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 2,
@@ -16,7 +19,10 @@
    "productName": "Banana",
    "retailPrice": 20,
    "offerPrice": 14,
-   "ratings": 4.5
+   "ratings": 4.5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 3,
@@ -25,7 +31,10 @@
    "productName": "white nuts",
    "retailPrice": 20,
    "offerPrice": 15,
-   "ratings": 5
+   "ratings": 5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 4,
@@ -34,7 +43,10 @@
    "productName": "tomato",
    "retailPrice": 20,
    "offerPrice": 18,
-   "ratings": 4
+   "ratings": 4,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 5,
@@ -43,7 +55,10 @@
    "productName": "mung bean",
    "retailPrice": 15,
    "offerPrice": 10,
-   "ratings": 3.5
+   "ratings": 3.5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 6,
@@ -52,7 +67,10 @@
    "productName": "brown hazelnut",
    "retailPrice": 15,
    "offerPrice": 12,
-   "ratings": 4
+   "ratings": 4,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 7,
@@ -61,7 +79,10 @@
    "productName": "eggs",
    "retailPrice": 20,
    "offerPrice": 16,
-   "ratings": 5
+   "ratings": 5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 8,
@@ -70,7 +91,10 @@
    "productName": "Elaichi Rusk",
    "retailPrice": 20,
    "offerPrice": 15,
-   "ratings": 3
+   "ratings": 3,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 9,
@@ -79,7 +103,10 @@
    "productName": "Broccoli",
    "retailPrice": 20,
    "offerPrice": 11,
-   "ratings": 4.5
+   "ratings": 4.5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 10,
@@ -88,7 +115,10 @@
    "productName": "bottle guard",
    "retailPrice": 15,
    "offerPrice": 12,
-   "ratings": 3.5
+   "ratings": 3.5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 11,
@@ -97,7 +127,10 @@
    "productName": "onion",
    "retailPrice": 30,
    "offerPrice": 20,
-   "ratings": 4.5
+   "ratings": 4.5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 12,
@@ -106,7 +139,10 @@
    "productName": "cabbage",
    "retailPrice": 20,
    "offerPrice": 17,
-   "ratings": 5
+   "ratings": 5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 13,
@@ -115,7 +151,10 @@
    "productName": "snake guard",
    "retailPrice": 20,
    "offerPrice": 14,
-   "ratings": 4
+   "ratings": 4,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 14,
@@ -124,7 +163,10 @@
    "productName": "walnut",
    "retailPrice": 40,
    "offerPrice": 25,
-   "ratings": 4.5
+   "ratings": 4.5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 15,
@@ -133,7 +175,10 @@
    "productName": "sweet corn",
    "retailPrice": 10,
    "offerPrice": 5,
-   "ratings": 4
+   "ratings": 4,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   },
   {
    "id": 16,
@@ -142,7 +187,10 @@
    "productName": "almonds",
    "retailPrice": 20,
    "offerPrice": 15,
-   "ratings": 5
+   "ratings": 5,
+   "content": "Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.",
+   "description": "Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition. It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.",
+   "info": "It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw. We aim to give our customers a healthy chemical-free meal for perfect nutrition. Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, ecology, and care."
   }
  ],
  "blogs": [

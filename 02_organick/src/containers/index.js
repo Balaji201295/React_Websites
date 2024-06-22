@@ -14,7 +14,7 @@ export { default as Offers } from "./Offers";
 export { default as OrganicExperts } from "./OrganicExperts";
 export { default as OrganicItems } from "./OrganicItems";
 export { default as OrganicOnly } from "./OrganicOnly";
-export { default as OruProducts } from "./OurProducts";
+export { default as OurProducts } from "./OurProducts";
 export { default as PortfolioDetails } from "./PortfolioDetails";
 export { default as ProductDetails } from "./ProductDetails";
 export { default as RelatedProducts } from "./RelatedProducts";
