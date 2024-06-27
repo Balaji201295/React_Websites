@@ -54,6 +54,9 @@ body {
 .bg_team {
   background-image: url("./assets/bg_17.png");
 }
+.bg_error {
+  background-image: url("./assets/error_banner.png");
+}
 
 a {
   color: inherit;

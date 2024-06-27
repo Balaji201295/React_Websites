@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { CTA } from "../components";
 import { FaUser } from "react-icons/fa6";
 import { useLoaderData } from "react-router-dom";
 import styles from "../style";
@@ -88,6 +89,7 @@ const SingleBlog = () => {
           ))}
         </ol>
       </div>
+      <CTA />
     </section>
   );
 };
