@@ -51,6 +51,9 @@ body {
 .bg_portfolio {
   background-image: url("./assets/bg_10.png");
 }
+.bg_team {
+  background-image: url("./assets/bg_17.png");
+}
 
 a {
   color: inherit;
