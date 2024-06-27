@@ -69,6 +69,10 @@ li {
   filter: drop-shadow(0px 29px 44px rgba(150, 150, 150, 0.25));
 }
 
+.single_portfolio-intro {
+  filter: drop-shadow(0px 14px 36px rgba(204, 204, 204, 0.25));
+}
+
 @-webkit-keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);

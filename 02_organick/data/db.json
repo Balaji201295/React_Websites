@@ -373,7 +373,9 @@
     "Organic carrots are rich in vitamins and minerals, particularly vitamin A (from beta-carotene), vitamin K, potassium, and fiber.",
     "Some studies suggest that organic produce may have higher levels of certain nutrients and antioxidants compared to conventionally grown counterparts, although results can vary."
    ],
-   "conclusion": "To be labeled as organic, carrots must be grown according to strict standards set by certification bodies like the USDA in the United States or equivalent organizations in other countries. This includes regular inspections and adherence to organic farming practices."
+   "conclusion": [
+    "To be labeled as organic, carrots must be grown according to strict standards set by certification bodies like the USDA in the United States or equivalent organizations in other countries. This includes regular inspections and adherence to organic farming practices."
+   ]
   },
   {
    "id": 3,
@@ -393,7 +395,9 @@
     "Betel leaves are rich in vitamins (particularly vitamin C), minerals (such as calcium and iron), and antioxidants.",
     "Betel leaves have been traditionally used in Ayurveda and other traditional medicines for their anti-inflammatory, antiseptic, and digestive properties. They are believed to aid in oral health, improve digestion, and provide relief from respiratory issues."
    ],
-   "conclusion": "While betel leaves themselves are generally safe to consume in moderation, it is important to be cautious with traditional 'paan' preparations that include areca nut, as the areca nut has been linked to oral health issues and cancer with prolonged use."
+   "conclusion": [
+    "While betel leaves themselves are generally safe to consume in moderation, it is important to be cautious with traditional 'paan' preparations that include areca nut, as the areca nut has been linked to oral health issues and cancer with prolonged use."
+   ]
   },
   {
    "id": 4,
@@ -412,7 +416,9 @@
     "These are traditional tomato varieties that have been passed down through generations. They are open-pollinated and come in a variety of colors, shapes, and sizes. Heirloom tomatoes are known for their rich flavors.",
     "These tomatoes are grown following organic farming standards, which prohibit synthetic pesticides, herbicides, and fertilizers. They are certified by organizations like the USDA Organic."
    ],
-   "conclusion": "Natural and organic farming methods may help retain higher levels of certain nutrients in tomatoes. By avoiding synthetic chemicals, natural tomatoes reduce the risk of pesticide residues, making them a safer choice for consumption."
+   "conclusion": [
+    "Natural and organic farming methods may help retain higher levels of certain nutrients in tomatoes. By avoiding synthetic chemicals, natural tomatoes reduce the risk of pesticide residues, making them a safer choice for consumption."
+   ]
   },
   {
    "id": 5,
@@ -453,7 +459,9 @@
     "They are an excellent source of vitamin C, which is important for immune function, skin health, and antioxidant protection. They also contain smaller amounts of vitamins A and B-complex vitamins.",
     "Honey oranges provide potassium, which is important for heart health and maintaining proper fluid balance."
    ],
-   "conclusion": "Like all citrus fruits, honey oranges contain natural sugars. While they are a healthy fruit, those monitoring their sugar intake should consume them in moderation. Some individuals may be allergic to citrus fruits and should avoid honey oranges if they experience symptoms such as itching, swelling, or difficulty breathing."
+   "conclusion": [
+    "Like all citrus fruits, honey oranges contain natural sugars. While they are a healthy fruit, those monitoring their sugar intake should consume them in moderation. Some individuals may be allergic to citrus fruits and should avoid honey oranges if they experience symptoms such as itching, swelling, or difficulty breathing."
+   ]
   }
  ]
 }
