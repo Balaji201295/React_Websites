@@ -58,6 +58,12 @@ body {
   background-image: url("./assets/error_banner.png");
 }
 
+.bg_contact {
+  background-image: url("./assets/bg_14.png");
+}
+.bg_location {
+  background-image: url("./assets/image_12.png");
+}
 a {
   color: inherit;
   text-decoration: none;

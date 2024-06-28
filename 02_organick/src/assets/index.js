@@ -53,11 +53,14 @@ import Item_4 from "./item_4.png";
 import Item_5 from "./item_5.png";
 import Item_6 from "./item_6.png";
 import Item_7 from "./item_7.png";
+import Location_Img from "./location.svg";
 import Logo from "./logo.svg";
+import Mail from "./mail.svg";
 import OrganicVideo from "./organic.mp4";
 import Person_1 from "./person_1.jpg";
 import Person_2 from "./person_2.jpg";
 import Person_3 from "./person_3.jpg";
+import Phone from "./phone.svg";
 import Portfolio_1 from "./portfolio_1.png";
 import Portfolio_2 from "./portfolio_2.png";
 import Portfolio_3 from "./portfolio_3.png";
@@ -144,11 +147,14 @@ export {
   Item_5,
   Item_6,
   Item_7,
+  Location_Img,
   Logo,
+  Mail,
   OrganicVideo,
   Person_1,
   Person_2,
   Person_3,
+  Phone,
   Portfolio_1,
   Portfolio_2,
   Portfolio_3,

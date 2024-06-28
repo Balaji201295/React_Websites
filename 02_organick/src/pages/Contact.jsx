@@ -1,5 +1,16 @@
 import React from "react";
+import { ContactDetails, ContactForm, Location } from "../containers";
+import { PageHeading, CTA } from "../components";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <>
+      <PageHeading bgImage="bg_contact" heading="Our Team" />
+      <ContactDetails />
+      <Location />
+      <ContactForm />
+      <CTA />
+    </>
+  );
 };
 export default Contact;
