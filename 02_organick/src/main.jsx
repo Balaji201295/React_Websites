@@ -5,12 +5,9 @@ import App from "./App.jsx";
 import {
   About,
   Blog,
-  ChangeLog,
   Contact,
   Error,
   Home,
-  License,
-  PasswordProtector,
   Portfolio,
   Shop,
   Service,
@@ -124,18 +121,6 @@ const router = createBrowserRouter([
       {
         path: "/error",
         element: <Error />,
-      },
-      {
-        path: "/licenses",
-        element: <License />,
-      },
-      {
-        path: "/changelog",
-        element: <ChangeLog />,
-      },
-      {
-        path: "/password-protector",
-        element: <PasswordProtector />,
       },
     ],
   },

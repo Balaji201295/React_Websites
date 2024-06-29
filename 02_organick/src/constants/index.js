@@ -187,15 +187,15 @@ export const footerLinks = [
   },
   {
     name: "Licenses",
-    path: "/licenses",
+    path: "#",
   },
   {
     name: "Changelog",
-    path: "/changelog",
+    path: "#",
   },
   {
     name: "Password Protected",
-    path: "/password-protector",
+    path: "#",
   },
 ];
 
