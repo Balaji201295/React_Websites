@@ -5,7 +5,8 @@ import { Button } from "../components";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import styles from "../style";
-const Navbar = () => {
+import { logOut } from "../firebase";
+const Navbar = ({ isAuthenticated }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [toggleOpen, setToggleOpen] = useState(false);
   const navigate = useNavigate();
@@ -25,20 +26,33 @@ const Navbar = () => {
   };
 
   // NavLink Item
-  const NavItem = ({ path, title }) => (
-    <>
+  const NavItem = ({ path, title }) => {
+    const handleClick = (e) => {
+      if (!isAuthenticated) {
+        e.preventDefault();
+        navigate("/login");
+      } else {
+        handleNavLinkClick(path);
+      }
+    };
+    return (
       <NavLink
         to={path}
         className={({ isActive }) => (isActive ? "text-white " : "")}
-        onClick={() => handleNavLinkClick(path)}
+        onClick={handleClick}
       >
         {title}
       </NavLink>
-    </>
-  );
+    );
+  };
 
-  const handleButtonClick = () => {
-    navigate("/login");
+  const handleLogout = async () => {
+    try {
+      await logOut();
+      navigate("/login");
+    } catch (error) {
+      console.log("Logout Failed", error.message);
+    }
   };
   return (
     <nav
@@ -65,11 +79,13 @@ const Navbar = () => {
       </ul>
       {/* buttons */}
       <div className="hidden sm:flex justify-end items-center w-full md:w-max mr-8 md:mr-0 gap-4">
-        <Button
-          label="Sign up"
-          styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light"
-          onClick={handleButtonClick}
-        />
+        {isAuthenticated && (
+          <Button
+            label="Logout"
+            styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light"
+            onClick={handleLogout}
+          />
+        )}
       </div>
       {/* responsive */}
       <div className="md:hidden block">
@@ -99,11 +115,13 @@ const Navbar = () => {
               className="flex sm:hidden justify-center items-center gap-4 mt-8"
               onClick={() => setToggleOpen(false)}
             >
-              <Button
-                label="Sign up"
-                styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light"
-                onClick={handleButtonClick}
-              />
+              {isAuthenticated && (
+                <Button
+                  label="Logout"
+                  styles="text-dark hover:text-light bg-light hover:bg-transparent border-dark hover:border-light"
+                  onClick={handleLogout}
+                />
+              )}
             </div>
           </div>
         )}
